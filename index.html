@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>90s Snake</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+    <div id="startBox">
+        <button id="start" class="horizontal-cut-text-h1 startOptionBut">Start</button>
+        <button id="howToPlay" class="horizontal-cut-text-h1 startOptionBut" onclick="window.open('./pages/Controls.html', '_blank')">How to Play</button>
+        <div id="sliderContainer">
+            <span id="sliderDescription" class="">Number of Rows & Columns: </span>
+            <span><-></span>
+            <input id="sliderValue" class="slider" type="range" min="1" max="3" value="2">
+            <span id="sliderDisplay" class="">30</span>
+        </div>
+    </div>
+
+    <canvas id="canvas" hidden></canvas>
+
+    <h1 id="gameOver" class="horizontal-cut-text-h1" hidden>Game Over</h1>
+
+    <script src="./index.js" type="module"></script>
+</body>
+
+</html>

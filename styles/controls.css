@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+body div {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  margin: 2.5vh;
+}
+
+#topContainer img {
+    height: 30vh;
+    width:fit-content;
+}
+
+#line {
+  width: 100%;
+  height: 0.5vh;
+  background-color: black;
+}
+
+/* #bottomContainer {} */
