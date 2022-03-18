@@ -15,10 +15,10 @@ class PointsDisplay extends GameObject {
     this.ctx.font = 'bold 3vh monospace';
     this.ctx.fillStyle = 'white';
     this.ctx.textAlign = 'center';
-    this.ctx.fillText('Score: ' + this.score, this.config.w - this.config.w * 0.11, this.y);
+    this.ctx.fillText('Score: ' + this.score, this.config.w - this.config.w * 0.11, this.y - 5);
 
     // Hiscore text
-    this.ctx.fillText('Hi-Score: ' + this.hiScoreArray[0], this.config.w * 0.21, this.y)
+    this.ctx.fillText('Hi-Score: ' + this.hiScoreArray[0], 100, this.y - 5)
   }
 
   increase() {
