@@ -18,7 +18,7 @@ class PointsDisplay extends GameObject {
     this.ctx.fillText('Score: ' + this.score, this.config.w - this.config.w * 0.11, this.y);
 
     // Hiscore text
-    this.ctx.fillText('Hi-Score: ' + this.hiScoreArray[0], this.config.w * 0.15, this.y)
+    this.ctx.fillText('Hi-Score: ' + this.hiScoreArray[0], this.config.w * 0.20, this.y)
   }
 
   increase() {
