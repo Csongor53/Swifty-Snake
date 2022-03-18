@@ -38,10 +38,10 @@ const init = () => {
     document.querySelector('body').getBoundingClientRect().height
   )
     screenSize =
-      document.querySelector('body').getBoundingClientRect().width * 0.95;
+      document.querySelector('body').getBoundingClientRect().width;
   else
     screenSize =
-      document.querySelector('body').getBoundingClientRect().height * 0.95;
+      document.querySelector('body').getBoundingClientRect().height;
   config.w = screenSize;
   config.h = screenSize;
 
