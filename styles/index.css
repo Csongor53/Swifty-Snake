@@ -13,8 +13,6 @@
     padding: 10px;
     margin: 10px;
   
-    text-align: center;
-  
     transition: all 300ms;
   
     border: solid rgba(0, 0, 0, 0.5);
@@ -33,7 +31,6 @@
   
   
   #sliderContainer span{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 4vw;
     font-weight: bold;
     font-variant: small-caps;

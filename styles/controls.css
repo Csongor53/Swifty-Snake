@@ -6,18 +6,33 @@ body {
   width: 100%;
 }
 
-body div {
+.parentContainer {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   width: 100%;
   height: 50%;
-  margin: 2.5vh;
+  margin: 2vh;
+}
+
+.contentContainers {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.controllsContainers {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.controllsContainers img {
+  max-width: 30vh;
 }
 
 #topContainer img {
-    height: 30vh;
-    width:fit-content;
+  height: 30vh;
+  width: fit-content;
 }
 
 #line {
